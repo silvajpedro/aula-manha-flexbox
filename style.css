@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+main{
+    border:solid 10px red;
+}
+.caixaImagens{
+    display:flex;
+    justify-content:space-evenly;
+    /* 
+    flex-start -> ele vai posicionar nossos elementos
+    no canto esquerdo da caixa
+    center -> vai posicionar nossos elementos no centro da caixa.
+    flex-end -> ele vai posicionar nossos elementos no 
+    canto direito
+
+    space-evenly -> vai aplicar um espaçamento igualitário entre os 
+    elementos.
+    space-around -> um espaçamento um pouquinho maior entre os 
+    elementos.
+    space-between -> ele vai aplicar o máximo de espaçamento
+    possível entre os elementos.
+
+    */
+    align-items:center ;
+    /* 
+    flex-start -> vai posicionar os elementos
+     no topo do eixo y
+    center -> vai posicionar no centro da do eixo y
+    de nossa caixa
+    flex-end -> vai posicionar no bottom (fundo) da nossa
+    caixa.
+    
+    */
+    border: solid;
+    background-color: tomato;
+    height: 80vh;
+}
+img{
+    width:22vw;
+    height: 22vh;
+}
+.paoDeQueijo{
+   margin-top: 100px; 
+}
+p{
+    width: 10vw;
+}
